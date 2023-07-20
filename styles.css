@@ -22,7 +22,7 @@ body{
     font-size: 22px;
 }
 #fname{
-    border-right: 5px solid orangered;
+    border-right: 5px solid #ec842f;
     font-size: 30px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -30,39 +30,66 @@ body{
     padding: 20px;
 }
 
+.intro-container{
+    display: flex;
+    margin-top: 20px;
+}
+#half-circle{
+    height: 50px;
+    width: 50px;
+    margin: 30px 0px 0px 50px;
+
+}
+.half-circle{
+  height: 50px;
+  width: 150px;
+}
+
+
+.intro-section{
+    width: 100%;
+    min-width: 40%;
+    height: 500px;
+    min-height: 100%;
+    margin-right: 150px;
+    margin-top: 80px;
+    display: flex;
+    background-color: #ec842f;
+}
+.text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
 #download-icon{
     height: 20px;
     width: 20px;
 }
 #download-box{
-    width: 50%;
+    width: 30%;
+    height: 50px;
     min-width: 40%;
     text-align: center;
     color: white;
-    padding: 10px 5px 15px 5px;
+    font-size: larger;
+    padding-bottom: 25px;
     background-color: black;
-    border-radius: 20px;
-    margin-top: 50px;
+    border-radius: 50px;
+    margin-top: 40px;
 }
-.intro-section{
-    width: 60%;
-    min-width: 40%;
-    height: 300px;
-    min-height: 100%;
-    margin: auto;
-    margin-top: 50px;
-    display: flex;
-    background-color: orangered;
-    justify-content: space-between;
-}
-.text{
-    padding: 40px;
-    margin-left: 60px;
-}
-
 #main-photo{
-    width: 100%;
     height: 330px;
-    margin: -20px 20px 0px 0px;
+    border-radius: 20px;
+    margin-top: -30px;
+   
+}
+#image-main{
+    margin-left: 150px;
+    height: 550px;
+    width: 550px;
+
 }
 
