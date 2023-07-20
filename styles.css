@@ -22,7 +22,7 @@ body{
     font-size: 22px;
 }
 #fname{
-    border-right: 5px solid #ec842f;
+    border-right: 8px solid #FF5C00;
     font-size: 30px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -33,6 +33,7 @@ body{
 .intro-container{
     display: flex;
     margin-top: 20px;
+    
 }
 #half-circle{
     height: 50px;
@@ -54,7 +55,7 @@ body{
     margin-right: 150px;
     margin-top: 80px;
     display: flex;
-    background-color: #ec842f;
+    background-color: #FF5C00;
 }
 .text{
     width: 50%;
@@ -91,5 +92,48 @@ body{
     height: 550px;
     width: 550px;
 
+}
+
+.badge-collection{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    margin-top: 150px;
+    border: 4px solid black;
+    border-radius: 100px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.badge{
+    width: 25%;
+    display: flex;
+}
+.icon{
+    height: 80%;
+    width: 40%;
+    background-size: 100%;
+    margin: auto;
+}
+.badge-desc{
+    border-right: 8px solid #FF5C00;
+    height: auto;
+    width: 60%;
+    margin: auto;
+    margin-left: 20px;
+}
+
+#last-badge-desc{
+    border-right: 0px;
+}
+.badge-icon{
+    width:100%;
+    height: 100%;
+    border-radius: 20%;
+}
+
+.badge-text{
+    color: #FF5C00;
 }
 
