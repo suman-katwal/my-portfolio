@@ -339,7 +339,7 @@ justify-content: center;
     align-items: center;
 
 }
-.footer{
+.get-in-touch-footer{
     height: 25%;
     display: flex;
     justify-content: center;
@@ -376,4 +376,25 @@ text-align: center;
 }
 .img-mail{
     height: 80%;
+}
+.footer{
+    width: 98%;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    height: 550px;
+    margin-top: 80px;
+}
+.link-options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    height: 80%;
+
+}
+.links-section{
+    text-align: left;
+
 }
