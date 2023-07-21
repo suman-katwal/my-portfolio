@@ -1,110 +1,173 @@
-.nav-bar {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    border-bottom: 2px solid rgb(48, 47, 47);
-
-
-
-}
-
 body {
     background-color: #C5E7E7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.menu {
+.nav-bar {
     display: flex;
+    border-bottom: 2px solid rgb(48, 47, 47);
+    width: 100%;
+    height: 150px;
+    margin: auto;
+}
+
+.name-designation {
+    margin: auto;
+    height: 90%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     font-weight: bolder;
     font-size: larger;
 }
 
-.name-designation {
+
+.fname {
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 60%;
+    border-right: 6px solid #FF5C00;
+    width: 30%;
     display: flex;
-    font-size: 22px;
+    align-items: center;
+    justify-content: center;
 }
 
-#fname {
-    border-right: 8px solid #FF5C00;
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.designation {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 90%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+.menu {
+    margin: auto;
+    height: 90%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .top-menu {
-    padding: 20px;
+    font-size: 30px;
+    height: 90%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+
 }
 
 .intro-container {
+    width: 99%;
+    height: 600px;
     display: flex;
-    margin-top: 20px;
-
-}
-
-#half-circle {
-    height: 50px;
-    width: 50px;
-    margin: 30px 0px 0px 50px;
 
 }
 
 .half-circle {
-    height: 50px;
-    width: 150px;
+    width: 10%;
+    height: 100%;
 }
 
-
+#half-circle {
+    width: 20%;
+    margin: 20% 40% 0 40%  ;
+}
 .intro-section {
-    width: 70%;
-    min-width: 40%;
-    height: 400px;
-    min-height: 100%;
-    margin: auto;
-    margin-top: 80px;
-    margin-right: 300px;
-    display: flex;
+    width: 90%;
+    height: 100%;
+    display: flex;;
+    align-items: center;
+    color: whitesmoke;
+}
+.intro-items{
+    width: 90%;
+    height: 70%;
     background-color: #FF5C00;
+    display: flex;
+}
+#intro-text{
+    font-size: x-large;
 }
 
-.text {
+.text-download {
     width: 50%;
+}
+
+.text{
+    height: 60%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: larger;
+
 }
 
-#download-icon {
-    height: 20px;
-    width: 20px;
+
+.download-box {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-#download-box {
-    width: 30%;
-    height: 50px;
-    min-width: 40%;
-    text-align: center;
-    color: white;
-    font-size: larger;
-    padding-bottom: 25px;
+.download-button {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: black;
-    border-radius: 50px;
-    margin-top: 40px;
+    border-radius: 30px;
 }
 
-#main-photo {
-    height: 110%;
-    border-radius: 20px;
-    margin-top: -30px;
+.download-text {
+    width: 70%;
+    height: 30%;
+    text-align: center;
+}
+.img-download{
+    background-color: #C5E7E7;
+    border-radius: 25%;
+    width: 40%;
 
 }
+#download-cv{
+    width: 100%;
+}
+.download-icon{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.main-photo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 #image-main {
-    height: 100%;
-    width: 100%;
-    padding-left: 100px;
-
+    width: 50%;
+    height: 110%;
 }
+
+
+
 
 .badge-collection {
     width: 80%;
@@ -264,7 +327,8 @@ body {
     width: 80%;
     margin: auto;
 }
-.about-me{
+
+.about-me {
     margin-top: 80px;
     width: 98%;
     margin: auto;
@@ -272,53 +336,62 @@ body {
     background-color: #FF5C00;
     margin-top: 80px;
 }
-.aboutme-title{
+
+.aboutme-title {
     height: 20%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.aboutme-desc{
+
+.aboutme-desc {
     height: 80%;
-    width:100% ;
+    width: 100%;
     display: flex;
 
 }
-.about-me-image{
-width: 50%;
-height: 100%;
-display: flex;
-justify-content: center;
+
+.about-me-image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 
 }
-.about-me-img{
+
+.about-me-img {
     width: 70%;
     height: 100%;
 }
-.about-me-desc{
+
+.about-me-desc {
     width: 50%;
     height: 100%;
 }
-.about-text{
+
+.about-text {
     width: 70%;
     height: 60%;
     margin: auto;
     margin-top: 10%;
-    
+
 }
-.get-in-touch{
+
+.get-in-touch {
     height: 500px;
     margin-top: 80px;
 }
-.get-in-touch-title{
+
+.get-in-touch-title {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 25%;
 
 }
-.social-media-icon-col{
+
+.social-media-icon-col {
     height: 25%;
     display: flex;
     justify-content: space-around;
@@ -326,12 +399,14 @@ justify-content: center;
     width: 60%;
     margin: auto;
 }
-.socialmedia-icon{
+
+.socialmedia-icon {
     width: 8%;
     height: 70%;
 
 }
-.text-or{
+
+.text-or {
     height: 25%;
     width: 100%;
     display: flex;
@@ -339,7 +414,8 @@ justify-content: center;
     align-items: center;
 
 }
-.get-in-touch-footer{
+
+.get-in-touch-footer {
     height: 25%;
     display: flex;
     justify-content: center;
@@ -347,7 +423,8 @@ justify-content: center;
     color: white;
 
 }
-.email-button{
+
+.email-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -359,13 +436,15 @@ justify-content: center;
 
 
 }
-.email-address{
-width: 70%;
-text-align: center;
+
+.email-address {
+    width: 70%;
+    text-align: center;
 }
-.email-icon{
+
+.email-icon {
     height: 60%;
-    width: 10% ;
+    width: 10%;
     border-radius: 50%;
     background-color: #C5E7E7;
     display: flex;
@@ -374,18 +453,41 @@ text-align: center;
     background-color: #FF5C00;
     padding: 6px;
 }
-.img-mail{
+
+.img-mail {
     height: 80%;
 }
-.footer{
-    width: 98%;
+
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #FF5C00;
+    color: white;
+    cursor: pointer;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.footer {
+    width: 100%;
+    margin: auto;
     background-color: black;
     color: whitesmoke;
     text-align: center;
     height: 550px;
     margin-top: 80px;
 }
-.link-options{
+
+.link-options {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -394,7 +496,7 @@ text-align: center;
     height: 80%;
 
 }
-.links-section{
-    text-align: left;
 
+.links-section {
+    text-align: left;
 }

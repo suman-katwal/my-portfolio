@@ -7,12 +7,12 @@
 </head>
 
 <body>
+    <script type="text/JavaScript" src="script.js"></script>
     <div class="nav-bar">
         <div class="name-designation">
-            <div class="top-menu" id="fname"><b>Suman</b></div>
-            <div class="top-menu">ServiceNow Developer</div>
+            <div class="fname">Suman</div>
+            <div class="designation">ServiceNow Developer</div>
         </div>
-        <div> <b>Sorry, Only for Laptop. Please Note This site is not responsive yet! Work in Progress.</b></div>
         <div class="menu">
             <div class="top-menu">Home</div>
             <div class="top-menu">Skills</div>
@@ -26,18 +26,27 @@
             <img id="half-circle" src="images/half-circle.png" alt="half circle icon" />
         </div>
         <div class="intro-section">
-            <div class="text">
-                <div>
-                    <h2>Hi, I am Suman Katwal. <br /> ServiceNow Developer</h2><br />
-                    <p>I love coding and reach other what i know.</p>
+            <div class="intro-items">
+                <div class="text-download">
+                    <div class="text">
+                        <p><span id="intro-text"> I am Suman Katwal. <br /> ServiceNow Developer</span><br/><br /><br />
+                        I love coding and teach other what i know.</p>
+                    </div>
+                    <div class="download-box">
+                        <div class="download-button">
+                            <div class="download-text">
+                                <h1 id="download-cv">Download CV</h1>
+                            </div>
+                            <div class="download-icon">
+                                <img class="img-download" src="images/download-icon.png" alt="youtube icon" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="download-box">
-                    <h4>Download CV &nbsp;&nbsp;&nbsp; <img id="download-icon" src="images/download-icon.png"
-                            alt="download icon" /> </h4>
+                <div class="main-photo">
+                    <img id="image-main" src="images/main-photo.png" alt="Suman smiling photo" />
                 </div>
-
             </div>
-            <div id="main-photo"><img id="image-main" src="images/main-photo.png" alt="Suman smiling photo" /></div>
         </div>
     </div>
     <div class="badge-collection">
@@ -243,25 +252,44 @@
         </div>
     </div>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/top-arow.png"
+            alt="arrow to go to top" /></button>
+
     <div class="footer">
         <div class="link-options">
             <div class="links-section">
                 <div class="link-header">
                     <h1>LINKS</h1><br />
                 </div>
-                <div class="link-menu-item"><h3>Home</h3></div>
-                <div class="link-menu-item"><h3>Skills</h3></div>
-                <div class="link-menu-item"><h3>Projects</h3></div>
-                <div class="link-menu-item"><h3>Contact</h3></div>
+                <div class="link-menu-item">
+                    <h3>Home</h3>
+                </div>
+                <div class="link-menu-item">
+                    <h3>Skills</h3>
+                </div>
+                <div class="link-menu-item">
+                    <h3>Projects</h3>
+                </div>
+                <div class="link-menu-item">
+                    <h3>Contact</h3>
+                </div>
             </div>
             <div class="links-section">
                 <div class="link-header">
                     <h1>Social Links</h1><br />
                 </div>
-                <div class="link-menu-item"><h3>LinkedIn</h3></div>
-                <div class="link-menu-item"><h3>Facebook</h3></div>
-                <div class="link-menu-item"><h3>Github</h3></div>
-                <div class="link-menu-item"><h3>Github</h3></div>
+                <div class="link-menu-item">
+                    <h3>LinkedIn</h3>
+                </div>
+                <div class="link-menu-item">
+                    <h3>Facebook</h3>
+                </div>
+                <div class="link-menu-item">
+                    <h3>Github</h3>
+                </div>
+                <div class="link-menu-item">
+                    <h3>Github</h3>
+                </div>
             </div>
         </div>
 
