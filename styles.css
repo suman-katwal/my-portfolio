@@ -1,63 +1,71 @@
-.nav-bar{
+.nav-bar {
     display: flex;
     justify-content: space-between;
     padding: 15px;
     border-bottom: 2px solid rgb(48, 47, 47);
-   
-    
+
+
 
 }
-body{
-    background-color:hwb(180 76% 6%);
+
+body {
+    background-color: #C5E7E7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.menu{
+
+.menu {
     display: flex;
     font-weight: bolder;
     font-size: larger;
 }
 
-.name-designation{
+.name-designation {
     display: flex;
     font-size: 22px;
 }
-#fname{
+
+#fname {
     border-right: 8px solid #FF5C00;
     font-size: 30px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.top-menu{
+
+.top-menu {
     padding: 20px;
 }
 
-.intro-container{
+.intro-container {
     display: flex;
     margin-top: 20px;
-    
+
 }
-#half-circle{
+
+#half-circle {
     height: 50px;
     width: 50px;
     margin: 30px 0px 0px 50px;
 
 }
-.half-circle{
-  height: 50px;
-  width: 150px;
+
+.half-circle {
+    height: 50px;
+    width: 150px;
 }
 
 
-.intro-section{
-    width: 100%;
+.intro-section {
+    width: 70%;
     min-width: 40%;
-    height: 500px;
+    height: 400px;
     min-height: 100%;
-    margin-right: 150px;
+    margin: auto;
     margin-top: 80px;
+    margin-right: 300px;
     display: flex;
     background-color: #FF5C00;
 }
-.text{
+
+.text {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -65,11 +73,13 @@ body{
     justify-content: center;
     font-size: larger;
 }
-#download-icon{
+
+#download-icon {
     height: 20px;
     width: 20px;
 }
-#download-box{
+
+#download-box {
     width: 30%;
     height: 50px;
     min-width: 40%;
@@ -81,20 +91,22 @@ body{
     border-radius: 50px;
     margin-top: 40px;
 }
-#main-photo{
-    height: 330px;
+
+#main-photo {
+    height: 110%;
     border-radius: 20px;
     margin-top: -30px;
-   
-}
-#image-main{
-    margin-left: 150px;
-    height: 550px;
-    width: 550px;
 
 }
 
-.badge-collection{
+#image-main {
+    height: 100%;
+    width: 100%;
+    padding-left: 100px;
+
+}
+
+.badge-collection {
     width: 80%;
     height: 150px;
     margin: auto;
@@ -106,17 +118,20 @@ body{
     justify-content: space-around;
     padding: 30px;
 }
-.badge{
+
+.badge {
     width: 25%;
     display: flex;
 }
-.icon{
+
+.icon {
     height: 80%;
     width: 40%;
     background-size: 100%;
     margin: auto;
 }
-.badge-desc{
+
+.badge-desc {
     border-right: 8px solid #FF5C00;
     height: auto;
     width: 60%;
@@ -124,19 +139,21 @@ body{
     margin-left: 20px;
 }
 
-#last-badge-desc{
+#last-badge-desc {
     border-right: 0px;
 }
-.badge-icon{
-    width:100%;
+
+.badge-icon {
+    width: 100%;
     height: 100%;
     border-radius: 20%;
 }
 
-.badge-text{
+.badge-text {
     color: #FF5C00;
 }
-.skills{
+
+.skills {
     display: flex;
     width: 80%;
     margin: auto;
@@ -144,21 +161,106 @@ body{
     height: 200px;
     justify-content: space-around;
 }
-.html{
+
+.html {
     height: 100%;
     width: 11%;
     text-align: center;
 }
-.skill-logo{
+
+.skill-logo {
     height: 75%;
 }
-.skill-img{
+
+.skill-img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
-.skill-des{
+
+.skill-des {
     height: 15%;
     padding-bottom: 30px;
 
+}
+
+.recent-work {
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+    height: 1600px;
+}
+
+.title {
+    text-align: center;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.recent-work-tiles-col {
+    height: 90%;
+
+}
+
+.work-tiles-row {
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    align-items: center;
+}
+
+.work-tiles {
+    width: 30%;
+    height: 90%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.work-icon-image {
+    height: 70%;
+    width: 100%;
+
+}
+
+.work-icon {
+    height: 100%;
+    width: 100%;
+}
+
+.work-des {
+    height: 25%;
+
+}
+
+.git-chr-icon {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.git-icon {
+    margin-right: 10px;
+}
+
+.chr-icon {
+    margin-left: 10px;
+
+}
+
+.chr {
+    width: 100%;
+    height: 100%;
+}
+
+.git {
+    width: 100%;
+    height: 100%;
+}
+
+.work-tile-desc {
+    height: 75%;
+    width: 80%;
+    margin: auto;
 }
